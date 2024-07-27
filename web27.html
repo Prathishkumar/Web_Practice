@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pseudo selector</title>
+   
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('http://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            color: aliceblue;
+            background-color: black;
+        }
+
+        .navigation {
+            font-size: 20px;
+            font-family: 'Bree Serif', serif;            
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+
+        }
+
+        section {
+            height: 344px;
+            /* border: 2px solid red; */
+            font-family: 'Bree Serif', serif;
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        /* section:before{
+            content: "this is a content";
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1> Welcome to Coding World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fugit, assumenda quo perferendis culpa
+            voluptates vel distinctio quia quisquam minima et, quasi, repellat recusandae consequuntur cum? Accusantium
+            reprehenderit placeat temporibus reiciendis aperiam neque cum?</p>
+    </section>
+    <hr>
+</body>
+
+</html>

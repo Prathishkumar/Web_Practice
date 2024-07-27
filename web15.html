@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: aqua;
+            border: 3px solid red;
+
+            /* we can set margine/padding for top, left, right, bottom like this  */
+            /* padding-top: 79px;
+            padding-left:79px ;
+            padding-bottom: 79px;
+            padding-right: 54px; */
+
+            /* margin-top: 12px;
+            margin-bottom: 8px;
+            margin-left: 15px;
+            margin-right: 10px; */
+
+            /* padding: 23px 56px 6px 78px;   */
+            /* padding = top right bottom left */
+
+            /* padding: y(top/bottom) x(left/right); */
+            /* Margin: y(top/bottom) x(left/right); */
+            padding: 34px 19px;
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+           
+        }
+        body{
+            background-color: #e6ebf8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is My Heading</h3>
+        <p id="first"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, fugiat adipisci impedit debitis minima eum ratione quod! Debitis pariatur omnis, officia dolore nulla aperiam earum vero illo voluptate! Quisquam quia amet excepturi alias repellat.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is My Heading</h3>
+        <p id="second"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, fugiat adipisci impedit debitis minima eum ratione quod! Debitis pariatur omnis, officia dolore nulla aperiam earum vero illo voluptate! Quisquam quia amet excepturi alias repellat.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is My Heading</h3>
+        <p id="Third"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, fugiat adipisci impedit debitis minima eum ratione quod! Debitis pariatur omnis, officia dolore nulla aperiam earum vero illo voluptate! Quisquam quia amet excepturi alias repellat.</p>
+    </div>
+
+    
+</body>
+</html>

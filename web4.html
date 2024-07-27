@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<!-- (br) was mostly avoided and (div-division) tag was used -->
+<!-- In form the action attribute cointains the the file which we used for backend programming -->
+
+<body>
+    <!-- this forms are used to create a form like signin tabs which contains name,email,pass etc...  -->
+
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+
+        <!-- use (label) tag along with the (id) attribute  -->
+
+        <label for="name"> Name</label>
+        <div>
+            <!-- to create a column use input tag -->
+            <!-- assign the name for the column (eg-name,roll,DOB etc..) -->
+
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            <input type="number" name="myNumber">
+        </div>
+        <br>
+        <div>
+            <!-- use the (checked) word at the end of the function or tag to make that checkbox mark as checked by default -->
+            Eligibility: <input type="checkbox" name="myEligiblity" checked>
+        </div>
+        <br>
+        <div>
+            Male: <input type="radio" name="myGender"> Female: <input type="radio" name="myGender"> Other: <input
+                type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            <!-- textarea tag is used to write a paragraph or like bio -->
+            Your Information:<br> <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <!-- the (select) tag is used to select among various options (the option tag is used for options) the (selected) attribute is used to make it default -->
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="Hyun">Hyundai</option>
+                <option value="swf" selected>Swift</option>
+                <option value="mar">Maruthi</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
